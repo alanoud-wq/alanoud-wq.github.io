@@ -1,0 +1,44 @@
+/* CSS Document */
+.gallery{
+	margin: 1px 80px;
+	
+}
+
+.logo{
+	left: 40px;
+	top: 20px;
+	position: fixed;
+	
+}
+
+
+.gallery img{
+	
+	transition: 1s;
+	position: relative;
+	padding: 15px;
+	width: 155px;
+	top: -19px;
+	right: -115px;
+
+}
+
+.gallery img:hover{
+	filter: grayscale(60%);
+	transform: scale(1.1);
+	
+	
+	
+}
+
+body {
+	background: #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Muli';
+	overflow: hidden;
+	
+}
+
+

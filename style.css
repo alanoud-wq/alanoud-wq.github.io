@@ -1,0 +1,277 @@
+@charset 'UTF-8';
+
+/* font */
+@import url('https://fonts.googleapis.com/css?family=Cardo');
+/* font-family: 'Cardo', serif; */
+
+/* reset */
+* {margin: 0; padding: 0;}
+li,ul,ol {list-style:none;}
+a{text-decoration:none;}
+.clearfix {*zoom : 1;}
+.clearfix:before, .clearfix:after {display:block; content:''; line-height:0;}
+.clearfix:after {clear:both;}
+
+.logo{
+	left: 20px;
+	top: 20px;
+	position: fixed;
+	
+}
+
+.img1{
+	
+	top: 70px;
+	
+	
+}
+
+/* nav */
+#nav {
+  position: fixed;
+  left: 20%; top: 35px;
+  width: 100%; height: 56px;
+  text-align: center;
+  transition: top 0.3s ease-in-out;
+}
+#nav.nav-up {
+  top:-60px;
+}
+#nav.nav-down {
+  top:10px;
+}
+#nav li {
+  float: left;
+  width:13%;
+}
+#nav li a {
+  display: block;
+  background-color: (255,255,255,0.4);
+  color: #FFFFFF;
+  padding:20px;
+}
+#nav li.on a {
+  background-color: (0,0,0,0.4);
+  color:#fff;
+}
+
+/* dot */
+#dot {
+  position:fixed;
+  right: 85px;
+  top: 49%;
+  transform: translatey(-50%);
+  text-align:right;
+  transition : right 0.3s ease-in-out;
+}
+#dot.dot-up {
+  right:20px;
+}
+#dot.dot-down {
+  right: 20px;
+}
+#dot li a {
+  font-size: 18px;
+  padding: 4px;
+  margin-bottom: 20px;
+  width: 3px; height: 3px;
+  background-color: #FFFFFF;
+  display: inline-block; border-radius: 60%;
+  border:3px solid transparent;
+  transition: all 0.2s ease;
+  position: relative;
+}
+#dot li a span {
+  opacity:0;
+  position: absolute;
+  right: 30px; top: -10px;
+  color:#fff;
+}
+#dot li.on a {
+  border: 3px solid #fff;
+}
+#dot li.on span {
+  opacity:1;
+}
+
+/* contents */
+#contents {font-family: 'Cardo', serif;}
+#contents > div {height:100vh; background-size:100%; background-position:center; text-align:center; line-height:100vh; color:#000000; font-size:25px; background-attachment:fixed; background-image:url("images/background.png"); background-repeat: no-repeat;}
+
+
+.logo{
+	left: 40px;
+	position: fixed;
+	
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+body{
+background-: #FFFFFF;
+	
+}
+
+.buy 1{
+	
+	position: relative;
+    color: aliceblue;
+	background: #131313;
+	padding: 7px 15px;
+	border-radius: 30px; 
+	text-decoration: none;
+	transition: 0.5s;
+	opacity: 0;
+	z-index: 30;
+	box-shadow: inset -5px -5px 10px rgba(255,255,255,0.05),
+		inset 5px 5px 15px rgba(0,0,0,0.5);
+	font-family: 'Cairo', sans-serif;
+	font-size: 40px;
+	color: aliceblue;
+}
+
+
+
+.section2{
+	
+	width: 0;
+	height: 450; 
+	position:relative;
+	top: 100px;	
+	
+}
+
+.section3{
+	
+position: relative;
+	
+	top: -1px;
+	right: -30px;
+		
+}
+.a buy1{
+	 
+	top: -60%;
+	right: -60%;
+	
+}
+
+
+.footer{
+	background: #FFFFFF;
+	height: auto;
+	width: 100vw;
+	font-family:'Vampiro One', cursive;
+	padding-top: 40px;
+	color: black;
+
+}
+.footer-content{
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.foteer-content h3{
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 3rem;
+	
+
+}
+
+.footer-content p{
+	max-width: 500px;
+		margin: 10px auto;
+	line-height: 28px;
+	font-size: 14px;
+
+}
+.socials{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 0rem 0;
+
+}
+.socials li{
+	margin: 0 6px;
+	
+	
+}
+
+.socials a{
+	text-decoration: none;
+	color: black;
+}
+
+.socials a i{
+	font-size: 1.1rem;
+	transition: color .4s ease;
+	
+}
+
+.socials a:hover i{
+	color: green;
+
+}
+
+.footer-bottom{
+	background: #FFFFFF;
+	width: 100vw;
+	padding: 10px 0;
+	text-align: center;
+	height: 10px;
+}
+
+.footer-bottom p{
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+}
+.footer-bottom span{
+	text-transform: uppercase;
+	opacity: .4;
+	font-weight: 200;
+	
+	
+}
+.section3 img{
+	position:relative;
+	top: 170px;
+	right: 200px;
+}
+
+.section2 img{
+	
+	
+	position: relative;
+	top: 5px;
+		right:-100px;
+}
+
+.section1 img{
+	top: 130px;
+	right: 60px;
+	position: relative;
+	
+	
+}
+
+.a buy0{
+	
+	top: -115px;
+	right: 40px;
+	position: relative;
+	
+	
+	
+}
